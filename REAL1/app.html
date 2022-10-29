@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        header
+        {
+            width: 99%;
+            margin : 0;
+            border: 1px solid green;
+        }
+
+        #head_nav
+        {
+            width: 100%;
+            overflow: hidden;
+            background-color: blueviolet;
+        }
+
+        #head_nav li
+        {
+            font-size: 0.9em;
+            color: white;
+            margin-right: 20px;
+            list-style: none;
+            float:left;
+        }
+
+        #head_info
+        {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        #head_info div{
+            margin-top: 10px;
+            float : left;
+        }
+
+        #head_info .search input{
+            width: 400px;
+            font-size: 20px;
+            border: 1px solid green;
+            margin-top: 6px;
+            padding: 5px;
+        }
+
+        #head_info .btn_search{
+            width: 124px;
+            height: 38px;
+        }
+
+        #head_info .txt_sw{
+            color : blue;
+
+        }
+
+        #head_info .service
+        {
+            float : right;
+        }
+
+        #head_info .service ul li
+        {
+            float : right;
+            list-style: none;
+            margin : 15px;
+        }
+
+        #content
+        {
+            width: 1000px;
+            margin : 0 auto;
+            margin-top: 85px;
+            overflow: hidden;
+        }
+
+        
+        footer
+        {
+            width: 1000px;
+            margin : 0 auto;
+            margin-top: 85px;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id = "head_nav">
+            <div>
+                <ul>
+                    <li>메뉴1</li>
+                    <li>메뉴2</li>
+                    <li>메뉴3</li>
+                    <li>메뉴4</li>
+                    <li>메뉴5</li>
+                    <li>메뉴6</li>
+                    <li>메뉴7</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id ="head_info">
+            
+            <div class = "search">
+                <input type ="text"/>
+                <button type="submit" class="btn_search">
+                    <span class="txt_sw">search web</span>
+                </button>
+            </div>
+
+            <div class = "service">
+                <ul>
+                    <li><a href="#none">my name</a></li>
+                    <li><a href="#none">my info</a></li>
+                    <li><a href="#none">my habbit</a></li>
+                </ul>
+
+            </div> 
+        </div>
+
+    </header>
+    
+    <div id = "content">
+        content
+    </div>
+
+    <footer> footer </footer>
+
+</body>
+</html>
